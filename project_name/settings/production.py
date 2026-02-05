@@ -1,5 +1,5 @@
 # Application Imports
-from config.settings.base import *
+from {{ project_name }}.settings.base import *
 
 # Third Party Imports
 from decouple import config
