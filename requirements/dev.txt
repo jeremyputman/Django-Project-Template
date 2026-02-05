@@ -1,0 +1,4 @@
+cookiecutter==2.6.0
+    # via projecttemplate (pyproject.toml)
+django-debug-toolbar==6.2.0
+    # via projecttemplate (pyproject.toml)    
