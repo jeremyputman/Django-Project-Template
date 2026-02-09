@@ -17,7 +17,7 @@ class LoguruContextMiddleware:
             user=username,
             ip=ip,
             method=request.method,
-            path=request.environ["REQUEST_URI"],
+            path=request.get_full_path(),
             http_version=request.environ["SERVER_PROTOCOL"],
         )
 
